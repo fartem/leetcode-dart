@@ -5,10 +5,10 @@ void main() {
   group(
     'Example tests',
     () {
-      final ip = Solution();
-      test('true', () => expect(true, ip.isPalindrome(121)));
-      test('false', () => expect(false, ip.isPalindrome(-121)));
-      test('false', () => expect(false, ip.isPalindrome(10)));
+      final pn = Solution();
+      test('true', () => expect(true, pn.isPalindrome(121)));
+      test('false', () => expect(false, pn.isPalindrome(-121)));
+      test('false', () => expect(false, pn.isPalindrome(10)));
     },
   );
 }
