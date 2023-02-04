@@ -16,3 +16,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 |----------------------|----------------------------------------------------------|-------------------------------------------|
 | 1. Two Sum           | [Link](https://leetcode.com/problems/two-sum/)           | [Link](./lib/easy/two_sum.dart)           |
 | 9. Palindrome Number | [Link](https://leetcode.com/problems/palindrome-number/) | [Link](./lib/easy/palindrome_number.dart) |
+| 13. Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/)  | [Link](./lib/easy/roman_to_integer.dart)  |
