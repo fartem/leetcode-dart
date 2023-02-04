@@ -12,8 +12,9 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 
 ### Easy
 
-| Name                 | Link to LeetCode                                         | Link to solution                          |
-|----------------------|----------------------------------------------------------|-------------------------------------------|
-| 1. Two Sum           | [Link](https://leetcode.com/problems/two-sum/)           | [Link](./lib/easy/two_sum.dart)           |
-| 9. Palindrome Number | [Link](https://leetcode.com/problems/palindrome-number/) | [Link](./lib/easy/palindrome_number.dart) |
-| 13. Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/)  | [Link](./lib/easy/roman_to_integer.dart)  |
+| Name                      | Link to LeetCode                                             | Link to solution                              |
+|---------------------------|--------------------------------------------------------------|-----------------------------------------------|
+| 1. Two Sum                | [Link](https://leetcode.com/problems/two-sum/)               | [Link](./lib/easy/two_sum.dart)               |
+| 9. Palindrome Number      | [Link](https://leetcode.com/problems/palindrome-number/)     | [Link](./lib/easy/palindrome_number.dart)     |
+| 13. Roman to Integer      | [Link](https://leetcode.com/problems/roman-to-integer/)      | [Link](./lib/easy/roman_to_integer.dart)      |
+| 14. Longest Common Prefix | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Link](./lib/easy/longest_common_prefix.dart) |
