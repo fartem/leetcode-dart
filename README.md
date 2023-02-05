@@ -18,3 +18,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 9. Palindrome Number      | [Link](https://leetcode.com/problems/palindrome-number/)     | [Link](./lib/easy/palindrome_number.dart)     |
 | 13. Roman to Integer      | [Link](https://leetcode.com/problems/roman-to-integer/)      | [Link](./lib/easy/roman_to_integer.dart)      |
 | 14. Longest Common Prefix | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Link](./lib/easy/longest_common_prefix.dart) |
+| 20. Valid Parentheses     | [Link](https://leetcode.com/problems/valid-parentheses/)     | [Link](./lib/easy/valid_parentheses.dart)     |
