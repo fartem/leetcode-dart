@@ -20,3 +20,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 14. Longest Common Prefix  | [Link](https://leetcode.com/problems/longest-common-prefix/)  | [Link](./lib/easy/longest_common_prefix.dart)  |
 | 20. Valid Parentheses      | [Link](https://leetcode.com/problems/valid-parentheses/)      | [Link](./lib/easy/valid_parentheses.dart)      |
 | 21. Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Link](./lib/easy/merge_two_sorted_lists.dart) |
+| 27. Remove Element         | [Link](https://leetcode.com/problems/remove-element/)         | [Link](./lib/easy/remove_element.dart)         |
