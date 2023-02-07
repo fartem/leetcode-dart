@@ -23,3 +23,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 27. Remove Element         | [Link](https://leetcode.com/problems/remove-element/)         | [Link](./lib/easy/remove_element.dart)         |
 | 35. Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Link](./lib/easy/search_insert_position.dart) |
 | 58. Length of Last Word    | [Link](https://leetcode.com/problems/length-of-last-word/)    | [Link](./lib/easy/length_of_last_word.dart)    |
+| 66. Plus One               | [Link](https://leetcode.com/problems/plus-one/)               | [Link](./lib/easy/plus_one.dart)               |
