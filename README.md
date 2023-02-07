@@ -22,3 +22,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 21. Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Link](./lib/easy/merge_two_sorted_lists.dart) |
 | 27. Remove Element         | [Link](https://leetcode.com/problems/remove-element/)         | [Link](./lib/easy/remove_element.dart)         |
 | 35. Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Link](./lib/easy/search_insert_position.dart) |
+| 58. Length of Last Word    | [Link](https://leetcode.com/problems/length-of-last-word/)    | [Link](./lib/easy/length_of_last_word.dart)    |
