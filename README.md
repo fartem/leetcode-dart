@@ -25,3 +25,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 58. Length of Last Word    | [Link](https://leetcode.com/problems/length-of-last-word/)    | [Link](./lib/easy/length_of_last_word.dart)    |
 | 66. Plus One               | [Link](https://leetcode.com/problems/plus-one/)               | [Link](./lib/easy/plus_one.dart)               |
 | 67. Add Binary             | [Link](https://leetcode.com/problems/add-binary/)             | [Link](./lib/easy/add_binary.dart)             |
+| 69. Sqrt(x)                | [Link](https://leetcode.com/problems/sqrtx/)                  | [Link](./lib/easy/sqrt_x.dart)                 |
