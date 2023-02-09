@@ -26,3 +26,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 66. Plus One               | [Link](https://leetcode.com/problems/plus-one/)               | [Link](./lib/easy/plus_one.dart)               |
 | 67. Add Binary             | [Link](https://leetcode.com/problems/add-binary/)             | [Link](./lib/easy/add_binary.dart)             |
 | 69. Sqrt(x)                | [Link](https://leetcode.com/problems/sqrtx/)                  | [Link](./lib/easy/sqrt_x.dart)                 |
+| 70. Climbing Stairs        | [Link](https://leetcode.com/problems/climbing-stairs/)        | [Link](./lib/easy/climbing_stairs.dart)        |
