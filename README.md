@@ -28,3 +28,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 69. Sqrt(x)                            | [Link](https://leetcode.com/problems/sqrtx/)                              | [Link](./lib/easy/sqrt_x.dart)                             |
 | 70. Climbing Stairs                    | [Link](https://leetcode.com/problems/climbing-stairs/)                    | [Link](./lib/easy/climbing_stairs.dart)                    |
 | 83. Remove Duplicates from Sorted List | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Link](./lib/easy/remove_duplicates_from_sorted_list.dart) |
+| 88. Merge Sorted Array                 | [Link](https://leetcode.com/problems/merge-sorted-array/)                 | [Link](./lib/easy/merge_sorted_array.dart)                 |
