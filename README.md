@@ -30,3 +30,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 83. Remove Duplicates from Sorted List | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Link](./lib/easy/remove_duplicates_from_sorted_list.dart) |
 | 88. Merge Sorted Array                 | [Link](https://leetcode.com/problems/merge-sorted-array/)                 | [Link](./lib/easy/merge_sorted_array.dart)                 |
 | 94. Binary Tree Inorder Traversal      | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/)      | [Link](./lib/easy/binary_tree_inorder_traversal.dart)      |
+| 100. Same Tree                         | [Link](https://leetcode.com/problems/same-tree/)                          | [Link](./lib/easy/same_tree.dart)                          |
