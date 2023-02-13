@@ -1,7 +1,7 @@
 import 'package:leetcode_dart/common/tree_node.dart';
 
-class LinkedListHelper {
-  LinkedListHelper._();
+class BinaryTreeHelper {
+  BinaryTreeHelper._();
 
   static bool areEqual(TreeNode? f, TreeNode? s) {
     while (f != null && s != null) {
