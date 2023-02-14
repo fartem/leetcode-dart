@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/search-insert-position/description/
+// https://leetcode.com/problems/search-insert-position/
 class Solution {
   int searchInsert(List<int> nums, int target) {
     if (nums[nums.length - 1] < target) {

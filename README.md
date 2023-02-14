@@ -32,6 +32,6 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 94. Binary Tree Inorder Traversal               | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/)              | [Link](./lib/easy/binary_tree_inorder_traversal.dart)              |
 | 100. Same Tree                                  | [Link](https://leetcode.com/problems/same-tree/)                                  | [Link](./lib/easy/same_tree.dart)                                  |
 | 101. Symmetric Tree                             | [Link](https://leetcode.com/problems/symmetric-tree/)                             | [Link](./lib/easy/symmetric_tree.dart)                             |
-| 104. Maximum Depth of Binary Tree               | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)   | [Link](./lib/easy/maximum_depth_of_binary_tree.dart)               |
+| 104. Maximum Depth of Binary Tree               | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/)               | [Link](./lib/easy/maximum_depth_of_binary_tree.dart)               |
 | 108. Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Link](./lib/easy/convert_sorted_array_to_binary_search_tree.dart) |
 | 110. Balanced Binary Tree                       | [Link](https://leetcode.com/problems/balanced-binary-tree/)                       | [Link](./lib/easy/balanced_binary_tree.dart)                       |
