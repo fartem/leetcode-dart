@@ -36,3 +36,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 108. Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Link](./lib/easy/convert_sorted_array_to_binary_search_tree.dart) |
 | 110. Balanced Binary Tree                       | [Link](https://leetcode.com/problems/balanced-binary-tree/)                       | [Link](./lib/easy/balanced_binary_tree.dart)                       |
 | 111. Minimum Depth of Binary Tree               | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)               | [Link](./lib/easy/minimum_depth_of_binary_tree.dart)               |
+| 112. Path Sum                                   | [Link](https://leetcode.com/problems/path-sum/)                                   | [Link](./lib/easy/path_sum.dart)                                   |
