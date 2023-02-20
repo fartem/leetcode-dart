@@ -37,3 +37,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 110. Balanced Binary Tree                       | [Link](https://leetcode.com/problems/balanced-binary-tree/)                       | [Link](./lib/easy/balanced_binary_tree.dart)                       |
 | 111. Minimum Depth of Binary Tree               | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)               | [Link](./lib/easy/minimum_depth_of_binary_tree.dart)               |
 | 112. Path Sum                                   | [Link](https://leetcode.com/problems/path-sum/)                                   | [Link](./lib/easy/path_sum.dart)                                   |
+| 118. Pascal's Triangle                          | [Link](https://leetcode.com/problems/pascals-triangle/)                           | [Link](./lib/easy/pascals_triangle.dart)                           |
