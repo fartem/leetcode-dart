@@ -13,7 +13,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 ### Easy
 
 | Name                                            | Link to LeetCode                                                                  | Link to solution                                                   |
-|-------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| ----------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | 1. Two Sum                                      | [Link](https://leetcode.com/problems/two-sum/)                                    | [Link](./lib/easy/two_sum.dart)                                    |
 | 9. Palindrome Number                            | [Link](https://leetcode.com/problems/palindrome-number/)                          | [Link](./lib/easy/palindrome_number.dart)                          |
 | 13. Roman to Integer                            | [Link](https://leetcode.com/problems/roman-to-integer/)                           | [Link](./lib/easy/roman_to_integer.dart)                           |
@@ -38,3 +38,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 111. Minimum Depth of Binary Tree               | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)               | [Link](./lib/easy/minimum_depth_of_binary_tree.dart)               |
 | 112. Path Sum                                   | [Link](https://leetcode.com/problems/path-sum/)                                   | [Link](./lib/easy/path_sum.dart)                                   |
 | 118. Pascal's Triangle                          | [Link](https://leetcode.com/problems/pascals-triangle/)                           | [Link](./lib/easy/pascals_triangle.dart)                           |
+| 3516. Find Closest Person                       | [Link](https://leetcode.com/problems/find-closest-person/)                        | [Link](./lib/easy/find_closest_person.dart)                        |
