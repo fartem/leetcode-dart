@@ -1,17 +1,18 @@
 import 'package:leetcode_dart/common/tree_node.dart';
-import 'package:leetcode_dart/easy/maximum_depth_of_binary_tree.dart';
+import 'package:leetcode_dart/easy/110_balanced_binary_tree.dart';
 import 'package:test/test.dart';
 
 void main() {
   group(
     'Example tests',
     () {
-      final mdoft = Solution();
+      final solution = Solution();
+
       test(
-        '3',
+        'true',
         () => expect(
-          3,
-          mdoft.maxDepth(
+          true,
+          solution.isBalanced(
             TreeNode(
               3,
               TreeNode(9),
@@ -25,13 +26,21 @@ void main() {
         ),
       );
       test(
-        '2',
+        'false',
         () => expect(
-          2,
-          mdoft.maxDepth(
+          false,
+          solution.isBalanced(
             TreeNode(
               1,
-              null,
+              TreeNode(
+                2,
+                TreeNode(
+                  3,
+                  TreeNode(4),
+                  TreeNode(4),
+                ),
+                TreeNode(3),
+              ),
               TreeNode(2),
             ),
           ),

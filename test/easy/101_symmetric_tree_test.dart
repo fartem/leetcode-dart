@@ -1,24 +1,29 @@
 import 'package:leetcode_dart/common/tree_node.dart';
-import 'package:leetcode_dart/easy/balanced_binary_tree.dart';
+import 'package:leetcode_dart/easy/101_symmetric_tree.dart';
 import 'package:test/test.dart';
 
 void main() {
   group(
     'Example tests',
     () {
-      final bbt = Solution();
+      final solution = Solution();
+
       test(
         'true',
         () => expect(
           true,
-          bbt.isBalanced(
+          solution.isSymmetric(
             TreeNode(
-              3,
-              TreeNode(9),
+              1,
               TreeNode(
-                20,
-                TreeNode(15),
-                TreeNode(7),
+                2,
+                TreeNode(3),
+                TreeNode(4),
+              ),
+              TreeNode(
+                2,
+                TreeNode(4),
+                TreeNode(3),
               ),
             ),
           ),
@@ -28,19 +33,19 @@ void main() {
         'false',
         () => expect(
           false,
-          bbt.isBalanced(
+          solution.isSymmetric(
             TreeNode(
               1,
               TreeNode(
                 2,
-                TreeNode(
-                  3,
-                  TreeNode(4),
-                  TreeNode(4),
-                ),
+                null,
                 TreeNode(3),
               ),
-              TreeNode(2),
+              TreeNode(
+                2,
+                null,
+                TreeNode(3),
+              ),
             ),
           ),
         ),

@@ -1,4 +1,4 @@
-import 'package:leetcode_dart/easy/remove_duplicates_from_sorted_list.dart';
+import 'package:leetcode_dart/easy/83_remove_duplicates_from_sorted_list.dart';
 import 'package:test/test.dart';
 
 import '../common/linked_list_helper.dart';
@@ -7,7 +7,8 @@ void main() {
   group(
     'Example tests',
     () {
-      final rdfsl = Solution();
+      final solution = Solution();
+
       test(
         '[1, 2]',
         () => expect(
@@ -16,7 +17,7 @@ void main() {
             LinkedListHelper.fromList(
               [1, 2],
             ),
-            rdfsl.deleteDuplicates(
+            solution.deleteDuplicates(
               LinkedListHelper.fromList(
                 [1, 1, 2],
               ),
@@ -32,7 +33,7 @@ void main() {
             LinkedListHelper.fromList(
               [1, 2, 3],
             ),
-            rdfsl.deleteDuplicates(
+            solution.deleteDuplicates(
               LinkedListHelper.fromList(
                 [1, 1, 2, 3, 3],
               ),

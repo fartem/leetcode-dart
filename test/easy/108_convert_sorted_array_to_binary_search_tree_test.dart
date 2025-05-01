@@ -1,5 +1,5 @@
 import 'package:leetcode_dart/common/tree_node.dart';
-import 'package:leetcode_dart/easy/convert_sorted_array_to_binary_search_tree.dart';
+import 'package:leetcode_dart/easy/108_convert_sorted_array_to_binary_search_tree.dart';
 import 'package:test/test.dart';
 
 import '../common/binary_tree_helper.dart';
@@ -8,7 +8,8 @@ void main() {
   group(
     'Example tests',
     () {
-      final csatbst = Solution();
+      final solution = Solution();
+
       test(
         '[0, -10, 5, null, -3, null, 9]',
         () => expect(
@@ -27,7 +28,7 @@ void main() {
                 TreeNode(9),
               ),
             ),
-            csatbst.sortedArrayToBST(
+            solution.sortedArrayToBST(
               [-10, -3, 0, 5, 9],
             ),
           ),
@@ -43,7 +44,9 @@ void main() {
               null,
               TreeNode(1),
             ),
-            csatbst.sortedArrayToBST([3, 1]),
+            solution.sortedArrayToBST(
+              [3, 1],
+            ),
           ),
         ),
       );

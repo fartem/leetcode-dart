@@ -1,10 +1,10 @@
 name: leetcode_dart
 description: Some solved problems from https://leetcode.com on Dart
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/fartem/leetcode-dart
 
 environment:
-  sdk: '>=3.7.2 <4.0.0'
+  sdk: '>=3.6.9 <4.0.0'
 
 dev_dependencies:
   lints: ^5.1.1

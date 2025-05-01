@@ -1,17 +1,18 @@
 import 'package:leetcode_dart/common/tree_node.dart';
-import 'package:leetcode_dart/easy/minimum_depth_of_binary_tree.dart';
+import 'package:leetcode_dart/easy/104_maximum_depth_of_binary_tree.dart';
 import 'package:test/test.dart';
 
 void main() {
   group(
     'Example tests',
     () {
-      final mdobt = Solution();
+      final solution = Solution();
+
       test(
-        '2',
+        '3',
         () => expect(
-          2,
-          mdobt.minDepth(
+          3,
+          solution.maxDepth(
             TreeNode(
               3,
               TreeNode(9),
@@ -25,26 +26,14 @@ void main() {
         ),
       );
       test(
-        '5',
+        '2',
         () => expect(
-          5,
-          mdobt.minDepth(
+          2,
+          solution.maxDepth(
             TreeNode(
-              2,
+              1,
               null,
-              TreeNode(
-                3,
-                null,
-                TreeNode(
-                  4,
-                  null,
-                  TreeNode(
-                    5,
-                    null,
-                    TreeNode(6),
-                  ),
-                ),
-              ),
+              TreeNode(2),
             ),
           ),
         ),

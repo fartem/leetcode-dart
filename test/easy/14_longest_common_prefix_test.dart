@@ -1,16 +1,17 @@
-import 'package:leetcode_dart/easy/longest_common_prefix.dart';
+import 'package:leetcode_dart/easy/14_longest_common_prefix.dart';
 import 'package:test/test.dart';
 
 void main() {
   group(
     'Example tests',
     () {
-      final lcp = Solution();
+      final solution = Solution();
+
       test(
         'fl',
         () => expect(
           'fl',
-          lcp.longestCommonPrefix(
+          solution.longestCommonPrefix(
             ["flower", "flow", "flight"],
           ),
         ),
@@ -19,7 +20,7 @@ void main() {
         '',
         () => expect(
           '',
-          lcp.longestCommonPrefix(
+          solution.longestCommonPrefix(
             ["dog", "racecar", "car"],
           ),
         ),

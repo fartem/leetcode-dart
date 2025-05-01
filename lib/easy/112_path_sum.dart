@@ -11,8 +11,7 @@ class Solution {
       if (node.left == null && node.right == null) {
         return node.val + count == targetSum;
       }
-      return _sum(node.left, targetSum, node.val + count) ||
-          _sum(node.right, targetSum, node.val + count);
+      return _sum(node.left, targetSum, node.val + count) || _sum(node.right, targetSum, node.val + count);
     }
     return false;
   }
