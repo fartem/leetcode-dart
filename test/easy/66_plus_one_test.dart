@@ -1,16 +1,17 @@
-import 'package:leetcode_dart/easy/plus_one.dart';
+import 'package:leetcode_dart/easy/66_plus_one.dart';
 import 'package:test/test.dart';
 
 void main() {
   group(
     'Example tests',
     () {
-      final po = Solution();
+      final solution = Solution();
+
       test(
         '[1, 2, 4]',
         () => expect(
           [1, 2, 4],
-          po.plusOne(
+          solution.plusOne(
             [1, 2, 3],
           ),
         ),
@@ -19,7 +20,7 @@ void main() {
         '[4, 3, 2, 2]',
         () => expect(
           [4, 3, 2, 2],
-          po.plusOne(
+          solution.plusOne(
             [4, 3, 2, 1],
           ),
         ),
@@ -28,7 +29,9 @@ void main() {
         '[1, 0]',
         () => expect(
           [1, 0],
-          po.plusOne([9]),
+          solution.plusOne(
+            [9],
+          ),
         ),
       );
     },

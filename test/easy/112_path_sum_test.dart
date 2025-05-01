@@ -1,27 +1,29 @@
 import 'package:leetcode_dart/common/tree_node.dart';
-import 'package:leetcode_dart/easy/path_sum.dart';
+import 'package:leetcode_dart/easy/112_path_sum.dart';
 import 'package:test/test.dart';
 
 void main() {
   group(
     'Example tests',
     () {
-      final ps = Solution();
+      final solution = Solution();
+
       test(
         'true',
         () => expect(
           true,
-          ps.hasPathSum(
+          solution.hasPathSum(
             TreeNode(
               5,
               TreeNode(
-                  4,
-                  TreeNode(
-                    11,
-                    TreeNode(7),
-                    TreeNode(2),
-                  ),
-                  null),
+                4,
+                TreeNode(
+                  11,
+                  TreeNode(7),
+                  TreeNode(2),
+                ),
+                null,
+              ),
               TreeNode(
                 8,
                 TreeNode(
@@ -42,7 +44,7 @@ void main() {
         'false',
         () => expect(
           false,
-          ps.hasPathSum(
+          solution.hasPathSum(
             TreeNode(
               1,
               TreeNode(2),
@@ -56,7 +58,7 @@ void main() {
         'false',
         () => expect(
           false,
-          ps.hasPathSum(
+          solution.hasPathSum(
             null,
             0,
           ),

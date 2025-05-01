@@ -13,10 +13,7 @@ class Solution {
       } else if (root.right == null) {
         return minDepth(root.left) + 1;
       }
-      return min(
-        minDepth(root.left) + 1,
-        minDepth(root.right) + 1,
-      );
+      return min(minDepth(root.left) + 1, minDepth(root.right) + 1);
     }
     return 0;
   }

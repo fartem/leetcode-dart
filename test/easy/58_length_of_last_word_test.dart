@@ -1,16 +1,17 @@
-import 'package:leetcode_dart/easy/length_of_last_word.dart';
+import 'package:leetcode_dart/easy/58_length_of_last_word.dart';
 import 'package:test/test.dart';
 
 void main() {
   group(
     'Example tests',
     () {
-      final lolw = Solution();
+      final solution = Solution();
+
       test(
         '5',
         () => expect(
           5,
-          lolw.lengthOfLastWord(
+          solution.lengthOfLastWord(
             'Hello World',
           ),
         ),
@@ -19,7 +20,7 @@ void main() {
         '4',
         () => expect(
           4,
-          lolw.lengthOfLastWord(
+          solution.lengthOfLastWord(
             '   fly me   to   the moon  ',
           ),
         ),
@@ -28,7 +29,7 @@ void main() {
         '6',
         () => expect(
           6,
-          lolw.lengthOfLastWord(
+          solution.lengthOfLastWord(
             'luffy is still joyboy',
           ),
         ),
