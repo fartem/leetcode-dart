@@ -38,5 +38,6 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 111. Minimum Depth of Binary Tree               | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/)               | [Link](./lib/easy/111_minimum_depth_of_binary_tree.dart)               |
 | 112. Path Sum                                   | [Link](https://leetcode.com/problems/path-sum/)                                   | [Link](./lib/easy/112_path_sum.dart)                                   |
 | 118. Pascal's Triangle                          | [Link](https://leetcode.com/problems/pascals-triangle/)                           | [Link](./lib/easy/118_pascals_triangle.dart)                           |
+| 500. Keyboard Row                               | [Link](https://leetcode.com/problems/keyboard-row/)                               | [Link](./lib/easy/500_keyboard_row.dart)                               |
 | 3280. Convert Date to Binary                    | [Link](https://leetcode.com/problems/convert-date-to-binary/)                     | [Link](./lib/easy/3280_convert_date_to_binary.dart)                    |
 | 3516. Find Closest Person                       | [Link](https://leetcode.com/problems/find-closest-person/)                        | [Link](./lib/easy/3516_find_closest_person.dart)                       |
