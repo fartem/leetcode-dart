@@ -42,3 +42,4 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 500. Keyboard Row                               | [Link](https://leetcode.com/problems/keyboard-row/)                               | [Link](./lib/easy/500_keyboard_row.dart)                               |
 | 3280. Convert Date to Binary                    | [Link](https://leetcode.com/problems/convert-date-to-binary/)                     | [Link](./lib/easy/3280_convert_date_to_binary.dart)                    |
 | 3516. Find Closest Person                       | [Link](https://leetcode.com/problems/find-closest-person/)                        | [Link](./lib/easy/3516_find_closest_person.dart)                       |
+| 3536. Maximum Product of Two Digits             | [Link](https://leetcode.com/problems/maximum-product-of-two-digits/)              | [Link](./lib/easy/3536_maximum_product_of_two_digits.dart)             |
