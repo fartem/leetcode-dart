@@ -40,6 +40,7 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 118. Pascal's Triangle                          | [Link](https://leetcode.com/problems/pascals-triangle/)                           | [Link](./lib/easy/118_pascals_triangle.dart)                           |
 | 263. Ugly Number                                | [Link](https://lettcode.com/problems/ugly-number/)                                | [Link](./lib/easy/263_ugly_number.dart)                                |
 | 500. Keyboard Row                               | [Link](https://leetcode.com/problems/keyboard-row/)                               | [Link](./lib/easy/500_keyboard_row.dart)                               |
+| 3120. Count the Number of Special Characters I  | [Link](https://leetcode.com/problems/count-the-number-of-special-characters-i/)   | [Link](./lib/easy/3120_count_the_number_of_special_characters_i.dart)  |
 | 3280. Convert Date to Binary                    | [Link](https://leetcode.com/problems/convert-date-to-binary/)                     | [Link](./lib/easy/3280_convert_date_to_binary.dart)                    |
 | 3340. Check Balanced String                     | [Link](https://leetcode.com/problems/check-balanced-string/)                      | [Link](./lib/easy/3340_check_balanced_string.dart)                     |
 | 3516. Find Closest Person                       | [Link](https://leetcode.com/problems/find-closest-person/)                        | [Link](./lib/easy/3516_find_closest_person.dart)                       |
