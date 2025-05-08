@@ -1,6 +1,6 @@
 name: leetcode_dart
 description: Some solved problems from https://leetcode.com on Dart
-version: 1.0.8
+version: 1.0.9
 homepage: https://github.com/fartem/leetcode-dart
 
 environment:

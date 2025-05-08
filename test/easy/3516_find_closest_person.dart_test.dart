@@ -8,21 +8,21 @@ void main() {
       final solution = Solution();
 
       test(
-        '1',
+        'Test case 1',
         () => expect(
           1,
           solution.findClosest(2, 7, 4),
         ),
       );
       test(
-        '2',
+        'Test case 2',
         () => expect(
           2,
           solution.findClosest(2, 5, 6),
         ),
       );
       test(
-        '0',
+        'Test case 3',
         () => expect(
           0,
           solution.findClosest(1, 5, 3),

@@ -11,7 +11,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '[0, -10, 5, null, -3, null, 9]',
+        'Test case 1',
         () => expect(
           true,
           BinaryTreeHelper.areEqual(
@@ -35,7 +35,7 @@ void main() {
         ),
       );
       test(
-        '3, null, 1',
+        'Test case 2',
         () => expect(
           true,
           BinaryTreeHelper.areEqual(

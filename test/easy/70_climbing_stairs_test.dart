@@ -8,14 +8,14 @@ void main() {
       final solution = Solution();
 
       test(
-        '2',
+        'Test case 1',
         () => expect(
           2,
           solution.climbStairs(2),
         ),
       );
       test(
-        '3',
+        'Test case 2',
         () => expect(
           3,
           solution.climbStairs(3),

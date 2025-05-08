@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '2',
+        'Test case 1',
         () => expect(
           2,
           solution.searchInsert(
@@ -18,7 +18,7 @@ void main() {
         ),
       );
       test(
-        '1',
+        'Test case 2',
         () => expect(
           1,
           solution.searchInsert(
@@ -28,7 +28,7 @@ void main() {
         ),
       );
       test(
-        '4',
+        'Test case 3',
         () => expect(
           4,
           solution.searchInsert(

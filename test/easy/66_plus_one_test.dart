@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '[1, 2, 4]',
+        'Test case 1',
         () => expect(
           [1, 2, 4],
           solution.plusOne(
@@ -17,7 +17,7 @@ void main() {
         ),
       );
       test(
-        '[4, 3, 2, 2]',
+        'Test case 2',
         () => expect(
           [4, 3, 2, 2],
           solution.plusOne(
@@ -26,7 +26,7 @@ void main() {
         ),
       );
       test(
-        '[1, 0]',
+        'Test case 3',
         () => expect(
           [1, 0],
           solution.plusOne(

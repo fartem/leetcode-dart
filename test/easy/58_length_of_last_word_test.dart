@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '5',
+        'Test case 1',
         () => expect(
           5,
           solution.lengthOfLastWord(
@@ -17,7 +17,7 @@ void main() {
         ),
       );
       test(
-        '4',
+        'Test case 2',
         () => expect(
           4,
           solution.lengthOfLastWord(
@@ -26,7 +26,7 @@ void main() {
         ),
       );
       test(
-        '6',
+        'Test case 3',
         () => expect(
           6,
           solution.lengthOfLastWord(

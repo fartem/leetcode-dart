@@ -9,7 +9,7 @@ void main() {
       final solution = Solution();
 
       test(
-        'true',
+        'Test case 1',
         () => expect(
           true,
           solution.hasPathSum(
@@ -41,7 +41,7 @@ void main() {
         ),
       );
       test(
-        'false',
+        'Test case 2',
         () => expect(
           false,
           solution.hasPathSum(
@@ -55,7 +55,7 @@ void main() {
         ),
       );
       test(
-        'false',
+        'Test case 3',
         () => expect(
           false,
           solution.hasPathSum(

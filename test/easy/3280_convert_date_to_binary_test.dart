@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '100000100000-10-11101',
+        'Test case 1',
         () => expect(
           '100000100000-10-11101',
           solution.convertDateToBinary(
@@ -17,7 +17,7 @@ void main() {
         ),
       );
       test(
-        '11101101100-1-1',
+        'Test case 2',
         () => expect(
           '11101101100-1-1',
           solution.convertDateToBinary(

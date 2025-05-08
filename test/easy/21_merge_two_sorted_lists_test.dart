@@ -11,7 +11,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '[1, 1, 2, 3, 4, 4]',
+        'Test case 1',
         () => expect(
           true,
           LinkedListHelper.areEqual(
@@ -30,7 +30,7 @@ void main() {
         ),
       );
       test(
-        '[]',
+        'Test case 2',
         () => expect(
           true,
           LinkedListHelper.areEqual(
@@ -43,7 +43,7 @@ void main() {
         ),
       );
       test(
-        '[0]',
+        'Test case 3',
         () => expect(
           true,
           LinkedListHelper.areEqual(

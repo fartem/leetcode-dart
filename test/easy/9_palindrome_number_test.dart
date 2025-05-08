@@ -8,21 +8,21 @@ void main() {
       final solution = Solution();
 
       test(
-        'true',
+        'Test case 1',
         () => expect(
           true,
           solution.isPalindrome(121),
         ),
       );
       test(
-        'false',
+        'Test case 2',
         () => expect(
           false,
           solution.isPalindrome(-121),
         ),
       );
       test(
-        'false',
+        'Test case 3',
         () => expect(
           false,
           solution.isPalindrome(10),

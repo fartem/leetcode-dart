@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        'fl',
+        'Test case 1',
         () => expect(
           'fl',
           solution.longestCommonPrefix(
@@ -17,7 +17,7 @@ void main() {
         ),
       );
       test(
-        '',
+        'Test case 2',
         () => expect(
           '',
           solution.longestCommonPrefix(

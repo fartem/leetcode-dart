@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '0, 1',
+        'Test case 1',
         () => expect(
           [0, 1],
           solution.twoSum(
@@ -18,7 +18,7 @@ void main() {
         ),
       );
       test(
-        '1, 2',
+        'Test case 2',
         () => expect(
           [1, 2],
           solution.twoSum(
@@ -28,7 +28,7 @@ void main() {
         ),
       );
       test(
-        '0, 1',
+        'Test case 3',
         () => expect(
           [0, 1],
           solution.twoSum(
