@@ -8,17 +8,23 @@ void main() {
       final solution = Solution();
 
       test(
-        '100',
+        'Test case 1',
         () => expect(
           '100',
-          solution.addBinary('11', '1'),
+          solution.addBinary(
+            '11',
+            '1',
+          ),
         ),
       );
       test(
-        '10101',
+        'Test case 2',
         () => expect(
           '10101',
-          solution.addBinary('1010', '1011'),
+          solution.addBinary(
+            '1010',
+            '1011',
+          ),
         ),
       );
     },

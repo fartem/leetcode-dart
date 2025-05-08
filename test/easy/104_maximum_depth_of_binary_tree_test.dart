@@ -9,7 +9,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '3',
+        'Test case 1',
         () => expect(
           3,
           solution.maxDepth(
@@ -26,7 +26,7 @@ void main() {
         ),
       );
       test(
-        '2',
+        'Test case 2',
         () => expect(
           2,
           solution.maxDepth(

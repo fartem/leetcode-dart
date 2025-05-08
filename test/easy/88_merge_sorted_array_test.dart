@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '[1, 2, 2, 3, 5, 6]',
+        'Test case 1',
         () {
           final nums1 = [1, 2, 3, 0, 0, 0];
           solution.merge(
@@ -25,7 +25,7 @@ void main() {
         },
       );
       test(
-        '[1]',
+        'Test case 2',
         () {
           final nums1 = [1];
           solution.merge(
@@ -35,11 +35,14 @@ void main() {
             0,
           );
 
-          expect([1], nums1);
+          expect(
+            [1],
+            nums1,
+          );
         },
       );
       test(
-        '[1]',
+        'Test case 3',
         () {
           final nums1 = [0];
           solution.merge(

@@ -8,21 +8,21 @@ void main() {
       final solution = Solution();
 
       test(
-        '6',
+        'Test case 1',
         () => expect(
           true,
           solution.isUgly(6),
         ),
       );
       test(
-        '1',
+        'Test case 2',
         () => expect(
           true,
           solution.isUgly(6),
         ),
       );
       test(
-        '14',
+        'Test case 3',
         () => expect(
           true,
           solution.isUgly(6),

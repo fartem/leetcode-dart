@@ -8,21 +8,21 @@ void main() {
       final solution = Solution();
 
       test(
-        '3',
+        'Test case 1',
         () => expect(
           3,
           solution.romanToInt('III'),
         ),
       );
       test(
-        '58',
+        'Test case 2',
         () => expect(
           58,
           solution.romanToInt('LVIII'),
         ),
       );
       test(
-        '1994',
+        'Test case 3',
         () => expect(
           1994,
           solution.romanToInt('MCMXCIV'),

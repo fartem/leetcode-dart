@@ -9,7 +9,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '[1, 3, 2]',
+        'Test case 1',
         () => expect(
           [1, 3, 2],
           solution.inorderTraversal(
@@ -25,14 +25,14 @@ void main() {
         ),
       );
       test(
-        '[]',
+        'Test case 2',
         () => expect(
           [],
           solution.inorderTraversal(null),
         ),
       );
       test(
-        '[1]',
+        'Test case 3',
         () => expect(
           [1],
           solution.inorderTraversal(

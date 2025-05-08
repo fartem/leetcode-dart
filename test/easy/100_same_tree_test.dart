@@ -9,7 +9,7 @@ void main() {
       final solution = Solution();
 
       test(
-        'true',
+        'Test case 1',
         () => expect(
           true,
           solution.isSameTree(
@@ -27,7 +27,7 @@ void main() {
         ),
       );
       test(
-        'false',
+        'Test case 2',
         () => expect(
           false,
           solution.isSameTree(
@@ -44,7 +44,7 @@ void main() {
         ),
       );
       test(
-        'false',
+        'Test case 3',
         () => expect(
           false,
           solution.isSameTree(

@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '3',
+        'Test case 1',
         () => expect(
           3,
           solution.numberOfSpecialChars(
@@ -16,9 +16,8 @@ void main() {
           ),
         ),
       );
-
       test(
-        '0',
+        'Test case 2',
         () => expect(
           0,
           solution.numberOfSpecialChars(
@@ -26,9 +25,8 @@ void main() {
           ),
         ),
       );
-
       test(
-        '1',
+        'Test case 3',
         () => expect(
           1,
           solution.numberOfSpecialChars(

@@ -8,21 +8,21 @@ void main() {
       final solution = Solution();
 
       test(
-        '3',
+        'Test case 1',
         () => expect(
           3,
           solution.maxProduct(31),
         ),
       );
       test(
-        '4',
+        'Test case 2',
         () => expect(
           4,
           solution.maxProduct(22),
         ),
       );
       test(
-        '8',
+        'Test case 3',
         () => expect(
           8,
           solution.maxProduct(124),

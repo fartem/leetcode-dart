@@ -8,21 +8,21 @@ void main() {
       final solution = Solution();
 
       test(
-        'true',
+        'Test case 1',
         () => expect(
           true,
           solution.isValid('()'),
         ),
       );
       test(
-        'true',
+        'Test case 2',
         () => expect(
           true,
           solution.isValid('()[]{}'),
         ),
       );
       test(
-        'false',
+        'Test case 3',
         () => expect(
           false,
           solution.isValid('(]'),

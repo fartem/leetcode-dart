@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        '[[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]',
+        'Test case 1',
         () => expect(
           [
             [1],
@@ -21,7 +21,7 @@ void main() {
         ),
       );
       test(
-        '[1]',
+        'Test case 2',
         () => expect(
           [
             [1],

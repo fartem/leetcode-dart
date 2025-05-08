@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        'false',
+        'Test case 1',
         () => expect(
           false,
           solution.isBalanced(
@@ -17,7 +17,7 @@ void main() {
         ),
       );
       test(
-        'true',
+        'Test case 2',
         () => expect(
           true,
           solution.isBalanced(

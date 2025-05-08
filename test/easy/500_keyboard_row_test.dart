@@ -8,7 +8,7 @@ void main() {
       final solution = Solution();
 
       test(
-        'test case 1',
+        'Test case 1',
         () => expect(
           [
             'Alaska',
@@ -24,9 +24,8 @@ void main() {
           ),
         ),
       );
-
       test(
-        'test case 2',
+        'Test case 2',
         () => expect(
           [],
           solution.findWords(
@@ -36,7 +35,6 @@ void main() {
           ),
         ),
       );
-
       test(
         'test case 3',
         () => expect(
