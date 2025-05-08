@@ -43,5 +43,6 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | 3120. Count the Number of Special Characters I  | [Link](https://leetcode.com/problems/count-the-number-of-special-characters-i/)   | [Link](./lib/easy/3120_count_the_number_of_special_characters_i.dart)  |
 | 3280. Convert Date to Binary                    | [Link](https://leetcode.com/problems/convert-date-to-binary/)                     | [Link](./lib/easy/3280_convert_date_to_binary.dart)                    |
 | 3340. Check Balanced String                     | [Link](https://leetcode.com/problems/check-balanced-string/)                      | [Link](./lib/easy/3340_check_balanced_string.dart)                     |
+| 3471. Find the Largest Almost Missing Integer   | [Link](https://leetcode.com/problems/check-balanced-string/)                      | [Link](./lib/easy/3471_find_the_largest_almost_missing_integer.dart)   |
 | 3516. Find Closest Person                       | [Link](https://leetcode.com/problems/find-closest-person/)                        | [Link](./lib/easy/3516_find_closest_person.dart)                       |
 | 3536. Maximum Product of Two Digits             | [Link](https://leetcode.com/problems/maximum-product-of-two-digits/)              | [Link](./lib/easy/3536_maximum_product_of_two_digits.dart)             |
